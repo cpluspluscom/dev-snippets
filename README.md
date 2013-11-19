@@ -1,4 +1,6 @@
 dev-snippets
 ============
 
-Snippets of independently licensed C++ code for developers.
+Independently licensed C++ code snippets for developers.
+
+See CONTRIBUTING.md for contributing guidelines.
