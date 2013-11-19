@@ -1,7 +1,11 @@
-Description - This snippet shows how you can garuentee that a thread will complete before the caller function's
+###__Description__  
+
+This snippet shows how you can garuentee that a thread will complete before the caller function's
 scope exits.
 
-Usage Example - In the example below the function runMyThread() will create a new thread to run myFunction()
+###__Usage Example__  
+
+In the example below the function runMyThread() will create a new thread to run myFunction()
 and then we want it to process some other information and then wait untill the thread running myFunction() is done.
 
 After doSomethingElseWithThisThread() is done we will reach the end of runMyThread() which will cause it to start
