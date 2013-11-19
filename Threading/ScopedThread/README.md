@@ -1,6 +1,6 @@
 ###__Description__  
 
-This snippet shows how you can garuentee that a thread will complete before the caller function's
+This snippet shows how you can guarantee that a thread will complete before the caller function's
 scope exits.
 
 ###__Usage Example__  
@@ -18,7 +18,7 @@ void myFunction()
     // Does something
 }
 
-void runMyThread
+void runMyThread()
 {
     ScopedThread sThread(std::thread(myFunction));
     
